@@ -1,0 +1,5 @@
+[package]
+name = "sdunpack"
+version = "0.1.0"
+authors = ["Bastien Dejean <nihilhill@gmail.com>"]
+edition = "2018"
