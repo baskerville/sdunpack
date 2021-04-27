@@ -12,6 +12,8 @@ sdunpack file.dict [file.syn] < file.idx > file.txt
 
 # Convert StarDict to dictd
 
+This example relies on some of the command line utilities provided by [dictd](https://sourceforge.net/projects/dict/files/dictd/).
+
 ```sh
 dictzip -d file.dict.dz
 sdunpack file.dict file.syn < file.idx > file.txt
