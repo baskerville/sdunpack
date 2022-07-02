@@ -45,7 +45,7 @@ fn main() {
         let nb = index_reader.read_until(b'\0', &mut word)
                              .expect("Read headword");
 
-        if nb == 0 {
+        if nb < 2 {
             break;
         }
 
